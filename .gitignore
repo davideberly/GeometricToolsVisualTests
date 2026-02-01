@@ -1,0 +1,10 @@
+# User-specific files
+
+# Visual Studio cache/options directory
+.vs/
+
+# Geometric Tools output folders (can be batch deleted without concern for source control)
+_Output/
+
+# User-specific settings
+*.user
