@@ -60,7 +60,7 @@
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>GTL_USE_MSWINDOWS;GTL_USE_DIRECTX;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../../../../.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(GTL_PATH)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>6262;26812</DisableSpecificWarnings>
       <TreatWarningAsError>true</TreatWarningAsError>
       <ConformanceMode>true</ConformanceMode>
@@ -81,7 +81,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>GTL_USE_MSWINDOWS;GTL_USE_DIRECTX;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../../../../.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(GTL_PATH)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>6262;26812</DisableSpecificWarnings>
       <TreatWarningAsError>true</TreatWarningAsError>
       <ConformanceMode>true</ConformanceMode>
@@ -103,13 +103,13 @@
     <ClInclude Include="ApproximateEllipsoid3Window3.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Applications\GTLApplicationsDX11.v18.vcxproj">
+    <ProjectReference Include="..\..\..\..\..\GeometricToolsLibrary\GTL\Applications\GTLApplicationsDX11.v18.vcxproj">
       <Project>{8bb237c2-2d3a-41ad-9b98-a35ba75d5dea}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Graphics\DX11\GTLGraphicsDX11.v18.vcxproj">
+    <ProjectReference Include="..\..\..\..\..\GeometricToolsLibrary\GTL\Graphics\DX11\GTLGraphicsDX11.v18.vcxproj">
       <Project>{00deff42-0f7c-4a7c-9c1f-59322b9e9004}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\Graphics\GTLGraphics.v18.vcxproj">
+    <ProjectReference Include="..\..\..\..\..\GeometricToolsLibrary\GTL\Graphics\GTLGraphics.v18.vcxproj">
       <Project>{b15cb711-f650-4063-9c7c-e7a5f88139a2}</Project>
     </ProjectReference>
   </ItemGroup>
